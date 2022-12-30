@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+void greater(int number_1, int number_2);
+mian()
+{
+
+ int number_1;
+ int number_2;
+ 
+ greater(number_1,number_2);
+
+
+
+
+}
+
+void greater(int number_1, int number_2){
+
+
+cout<<"enter first number ";
+cin >>number_1;
+cout<<"enter second number ";
+cin >>number_2;
+
+  if(number_1>number_2){
+cout<<"number 1 is greatre";
+}
+
+  if(number_2>number_1){
+cout<<"number 2 is greatre";
+}
+
+
+
+
+
+}
